@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disandu Perera</title>
+
+	<!--meta tags-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+	<!--Linking CSS Files -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+
+
+	<!--JS CDNs-->
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-12 col-md-offset-3">
+			<form id="form">
+
+				<ul id="progressbar">
+					<li class="active">Personal Details</li>
+					<li>Contact Details</li>
+					<li>Address</li>
+				</ul>
+
+				<fieldset>
+					<h2 class="title">Personal Details</h2>
+					<input type="text" name="FirstName" placeholder="First Name">
+					<input type="text" name="LastName" placeholder="Last Name">
+
+					<input type="button" name="next" class="next action-button" value="next">
+				</fieldset>
+				<fieldset>
+					<h2 class="title">Contact Details</h2>
+					<input type="text" name="Mobile" placeholder="Mobile Number">
+					<input type="text" name="Email" placeholder="Email">
+
+					<input type="button" name="previous" class="previous action-button-previous" value="Previous">
+
+
+					<input type="button" name="next" class="next action-button" value="Next">
+				</fieldset>
+				<fieldset>
+					<h2 class="title">Address</h2>
+					<input type="text" name="Street" placeholder="Street">
+					<input type="text" name="City" placeholder="City">
+
+					<input type="button" name="previous" class="previous action-button-previous" value="Previous">
+
+
+					<input type="submit" name="submit" class="submit action-button" value="submit">
+				</fieldset>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+
+	
+
+	<!-- Linking JS Files -->
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
